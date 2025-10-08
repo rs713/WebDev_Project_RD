@@ -1,0 +1,41 @@
+.wheels {
+    text-align: center;
+    color: rgb(26, 122, 231);
+}
+
+.button-containers {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.home-buttons {
+    color: white;
+    background-color: rgb(26, 122, 231);
+    border-color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    cursor: pointer;
+    font-weight:bolder;
+    transition: color 0.2s,
+        background-color 0.2s,
+        border-color 0.2s;
+}
+
+    .home-buttons:hover {
+        color: rgb(26, 122, 231);
+        background-color: white;
+        border-color: rgb(26, 122, 231);
+    }
+
+body {
+    background: white;
+}
+
+.john {
+    width: 200px;
+    height: auto;
+}
